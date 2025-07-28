@@ -66,3 +66,29 @@
   </footer>
 </body>
 </html>
+
+<!-- donations.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <style>
+    /* optional styling for layout */
+  </style>
+</head>
+<body>
+  <h2>Support our conference in Bitcoin</h2>
+  <div id="qrcode"></div>
+  <p><strong>Address:</strong> <span id="btc-address"></span> <button id="copy-btn">Copy</button></p>
+  <script>
+    const address = "YOUR_BITCOIN_ADDRESS_HERE";
+    document.getElementById("btc-address").textContent = address;
+    new QRCode(document.getElementById("qrcode"), address);
+    document.getElementById("copy-btn").addEventListener("click", () => {
+      navigator.clipboard.writeText(address);
+      alert("Copied to clipboard!");
+    });
+  </script>
+</body>
+</html>
+
