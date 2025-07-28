@@ -24,7 +24,7 @@ header {
 
 .speakers {
   padding: 2rem;
-  background-color: #111426;
+  background-color: #ffffff;
 }
 
 .speakers h2 {
@@ -40,7 +40,7 @@ header {
 }
 
 .card {
-  background: #1a1f3c;
+  background: #ffffff;
   padding: 1rem;
   border-radius: 12px;
   text-align: center;
@@ -58,7 +58,8 @@ header {
 footer {
   text-align: center;
   padding: 1rem;
-  background-color: #0b0e1c;
   border-top: 1px solid #333;
+  background-color: #ffffff;
+  color: #111111;
 }
 
