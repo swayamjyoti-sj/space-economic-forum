@@ -9,6 +9,8 @@ header {
   text-align: center;
   padding: 2rem 1rem;
   background: linear-gradient(to right, #131a3d, #2e3b80);
+  background-color: #ffffff;
+  color: #111111;
 }
 
 .intro {
@@ -16,6 +18,8 @@ header {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
+  background-color: #ffffff;
+  color: #111111;
 }
 
 .speakers {
